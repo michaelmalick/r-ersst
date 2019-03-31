@@ -1,0 +1,16 @@
+Package: ersst
+Type: Package
+Title: ersst
+Version: 1.0
+Date: 2019-03-31
+Author: Michael Malick
+Maintainer: Michael Malick <malickmj@gmail.com>
+Encoding: UTF-8
+Depends:
+    R (>= 3.0)
+Imports:
+    stats,
+    ncdf4
+Description: An R package to download and process NOAA ERSST data.
+License: file LICENSE
+RoxygenNote: 6.1.1
