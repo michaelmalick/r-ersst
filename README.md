@@ -1,6 +1,15 @@
-# ERSST SST Data Processing
+# NOAA ERSST Data
 
-An R package for downloading and processing NOAA ERSST SST data.
+An R package for downloading and processing NOAA ERSST data.
+
+
+## Installation
+The `ersst` package is not on CRAN, but can be installed from R using:
+
+    install.packages("devtools")
+    library(devtools)
+    install_github(repo = "michaelmalick/r-ersst")
+    library(ersst)
 
 
 ## Data notes
@@ -9,8 +18,8 @@ The full metadata for the SST data are located in the headers of the downloaded
 SST netCDF files. The metadata can be viewed using the `ncdump` utility with the
 `-h` flag.
 
-- Data website: <https://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v5>
-- Data files:   <https://www1.ncdc.noaa.gov/pub/data/cmb/ersst/v5/netcdf/>
+- Data website (v5): <https://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v5>
+- Data files (v5):   <https://www1.ncdc.noaa.gov/pub/data/cmb/ersst/v5/netcdf/>
 - Longitude: degrees east, specifies center of grid cell
 - Latitude: degrees north, specifies center of grid cell
 
@@ -36,15 +45,6 @@ elements:
 
 The `sst_dataframe()` can be used to convert the array data into a 'tidy' data
 frame, which can be easier to work with in other projects.
-
-
-## Installation
-The `ersst` package is not on CRAN, but can be installed from R using:
-
-    install.packages("devtools")
-    library(devtools)
-    install_github(repo = "michaelmalick/r-ersst")
-    library(ersst)
 
 
 ## License
