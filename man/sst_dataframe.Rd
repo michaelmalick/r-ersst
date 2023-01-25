@@ -31,7 +31,7 @@ Takes input SST data output from \code{\link{sst_load}} and spatially
      sst_download(1950, 1:5, "./sst/", version = 5)
      x <- sst_load(1950, 1:5, "./sst/", version = 5)
      xdf <- sst_dataframe(x)
-   e xdf <- sst_dataframe(x, na.rm = TRUE)
+     ndf <- sst_dataframe(x, na.rm = TRUE)
 
 }
 }

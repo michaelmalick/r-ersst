@@ -13,4 +13,4 @@ Imports:
     ncdf4
 Description: An R package to download and process NOAA ERSST data.
 License: file LICENSE
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.2

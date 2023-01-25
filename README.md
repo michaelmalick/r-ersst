@@ -18,8 +18,8 @@ The full metadata for the SST data are located in the headers of the downloaded
 SST netCDF files. The metadata can be viewed using the `ncdump` utility with the
 `-h` flag.
 
-- Data website (v5): <https://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v5>
-- Data files (v5):   <https://www1.ncdc.noaa.gov/pub/data/cmb/ersst/v5/netcdf/>
+- Data website (v5): <https://www.ncei.noaa.gov/products/extended-reconstructed-sst>
+- Data files (v5):   <https://www.ncei.noaa.gov/pub/data/cmb/ersst/v5/netcdf/>
 - Longitude: degrees east, specifies center of grid cell
 - Latitude: degrees north, specifies center of grid cell
 

@@ -66,7 +66,7 @@ sst_download <- function(years, months, save.dir, version,
 
             if(j < 10) j <- paste("0", j, sep = "")
 
-            web <- paste("https://www1.ncdc.noaa.gov/pub/data/cmb/ersst/v", version,
+            web <- paste("https://www.ncei.noaa.gov/pub/data/cmb/ersst/v", version,
                          "/netcdf/ersst.v", version, ".", i, j, ".nc", sep = "")
 
             fname <- paste(save.dir, "ersst.v", version, ".", i, j, ".nc", sep = "")

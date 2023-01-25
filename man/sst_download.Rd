@@ -4,8 +4,7 @@
 \alias{sst_download}
 \title{Download monthly ERSST SST data in netCDF format}
 \usage{
-sst_download(years, months, save.dir, version, method = "auto",
-  mode = "wb")
+sst_download(years, months, save.dir, version, method = "auto", mode = "wb")
 }
 \arguments{
 \item{years}{vector of years to download, all years should be > 1983, should be a
